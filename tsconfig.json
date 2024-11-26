@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES6", // JavaScript-Version (z.B. ES6, ES2017, ESNext)
+    "module": "commonjs", // Modul-Standard (z.B. CommonJS, ESNext)
+    "strict": true, // Aktiviert strenge Typüberprüfung
+    "outDir": "./dist", // Kompilierte Dateien kommen hierhin
+    "rootDir": "./src", // Quellverzeichnis
+    "esModuleInterop": true, // Ermöglicht den Import von CommonJS-Modulen
+    "resolveJsonModule": true
+  },
+  "include": ["src/**/*"], // Eingeschlossene Dateien/Ordner
+  "exclude": ["node_modules"] // Ausgeschlossene Dateien/Ordner
+}

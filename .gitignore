@@ -1,0 +1,54 @@
+# Node.js
+node_modules/
+package-lock.json
+yarn.lock
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# TypeScript
+*.tsbuildinfo
+dist/
+build/
+
+# IDEs and Editors
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# Testing
+coverage/
+*.lcov
+.nyc_output/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# MacOS
+.DS_Store
+
+# Linux
+*.pid
+*.pid.lock
+
+# Temporary files
+*.tmp
+*.temp
+
+# JSON data
+Data/*.json
+
+# Output for debugging
+debug.log
+output.log
+
+# Ignore compiled JS and sourcemaps
+*.js
+*.js.map

@@ -1,0 +1,56 @@
+[
+  {
+    "Nummer": 1,
+    "Vorgang": "Auswahl der Komponenten",
+    "Dauer": 8,
+    "Vorgänger": []
+  },
+  {
+    "Nummer": 2,
+    "Vorgang": "Bestellung und Lieferung",
+    "Dauer": 9,
+    "Vorgänger": [1]
+  },
+  {
+    "Nummer": 3,
+    "Vorgang": "Schulung Projektleiter",
+    "Dauer": 4,
+    "Vorgänger": [1]
+  },
+  {
+    "Nummer": 4,
+    "Vorgang": "Konvertierung alter Datenbestände",
+    "Dauer": 10,
+    "Vorgänger": [2]
+  },
+  {
+    "Nummer": 5,
+    "Vorgang": "Anpassung der Systemumgebung",
+    "Dauer": 3,
+    "Vorgänger": [3]
+  },
+  {
+    "Nummer": 6,
+    "Vorgang": "Montage des Systems",
+    "Dauer": 6,
+    "Vorgänger": [2, 5]
+  },
+  {
+    "Nummer": 7,
+    "Vorgang": "Schulung der Nutzer",
+    "Dauer": 5,
+    "Vorgänger": [3]
+  },
+  {
+    "Nummer": 8,
+    "Vorgang": "Testlauf",
+    "Dauer": 2,
+    "Vorgänger": [4, 6]
+  },
+  {
+    "Nummer": 9,
+    "Vorgang": "Übergabe",
+    "Dauer": 0,
+    "Vorgänger": [7, 8]
+  }
+]
